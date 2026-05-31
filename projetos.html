@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projetos | Rafael</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="voidCanvas" class="void-canvas" aria-hidden="true"></canvas>
+
+    <header class="topbar">
+      <a class="logo" href="index.html">Rafael</a>
+
+      <button class="menu-button" id="menuButton" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav" aria-label="Menu principal">
+        <a href="index.html" data-page="index">Inicio</a>
+        <a href="sobre.html" data-page="sobre">Sobre mim</a>
+        <a href="projetos.html" data-page="projetos">Projetos</a>
+      </nav>
+    </header>
+
+    <main class="page-shell subpage">
+      <section class="page-title reveal">
+        <p class="tag">Projetos</p>
+        <h1>Meus projetos</h1>
+        <p>
+          Aqui ficam os projetos que ja existem e tambem ideias futuras para evoluir o portfolio com novos
+          trabalhos.
+        </p>
+      </section>
+
+      <section class="project-grid">
+        <article class="project-card featured reveal">
+          <div>
+            <p class="project-status">Projeto atual</p>
+            <h2>Pagina JoJo</h2>
+            <p>
+              Projeto ja existente com tema de JoJo. Ele fica como um dos principais trabalhos do portfolio e
+              pode ser acessado direto pela pagina antiga.
+            </p>
+          </div>
+          <a class="pixel-button pixel-button-primary" href="jojo.html">Abrir JoJo</a>
+        </article>
+
+        <article class="project-card reveal">
+          <p class="project-status">Futuro</p>
+          <h2>Ashen Veil</h2>
+          <p>
+            Conceito de jogo metroidvania 2D com ruinas tecnologicas, combate rapido, parry e atmosfera
+            pos-apocaliptica.
+          </p>
+        </article>
+
+        <article class="project-card reveal">
+          <p class="project-status">Futuro</p>
+          <h2>Mini game pixel</h2>
+          <p>
+            Ideia para um jogo simples em JavaScript, com personagem, inimigos, pontuacao e fases curtas.
+          </p>
+        </article>
+
+        <article class="project-card reveal">
+          <p class="project-status">Futuro</p>
+          <h2>Galeria criativa</h2>
+          <p>
+            Uma pagina para guardar artes, conceitos de jogos, estudos visuais e experimentos feitos durante
+            os estudos.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Portfolio de Rafael - projetos.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
